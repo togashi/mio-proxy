@@ -1,0 +1,18 @@
+{
+  "name": "mio-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mio-proxy": "index.js"
+  },
+  "scripts": {
+    "lint": "npx eslint index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "proxy": "github:togashi/proxy"
+  }
+}
